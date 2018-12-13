@@ -1,0 +1,41 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  min-height: 100vh;
+  max-width: 48em;
+  margin: 0 auto;
+  padding: 1em 2em;
+  background-color: white;
+}
+
+figure {
+  margin: 0;
+  padding: 1em;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 1em;
+}
+
+code {
+  padding: 0.25em 0.5em;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
