@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<h1>Sandbox</h1>
+
+<p>Example using a capture block with include:</p>
+
+{% capture select %}
+  <select>
+    <option>Select...</option>
+    <option>Alpha</option>
+    <option>Bravo</option>
+    <option>Charlie</option>
+  </select>
+{% endcapture %}
+{% include component-include.html component=select %}
+
+<p>Example using proposed transclude tag:</p>
+
+{% transclude component-transclude.html %}
+  <select>
+    <option>Select...</option>
+    <option>Alpha</option>
+    <option>Bravo</option>
+    <option>Charlie</option>
+  </select>
+{% endtransclude %}
