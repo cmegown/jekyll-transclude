@@ -11,14 +11,6 @@ body {
   font-family: sans-serif;
 }
 
-img {
-  max-width: 100%;
-}
-
-h2 {
-  margin-top: 4em;
-}
-
 main {
   min-height: 100vh;
   max-width: 48em;
@@ -27,30 +19,11 @@ main {
   background-color: white;
 }
 
-figure {
-  margin: 0;
-  padding: 1em;
-  background-color: #f2f2f2;
-  text-align: center;
+img {
+  max-width: 100%;
 }
 
-figcaption {
-  margin-top: 1em;
-}
-
-pre,
-code {
-  padding: 0.25em 0.5em;
-  border: 1px solid #ccc;
-  background-color: #f2f2f2;
-}
-
-pre {
-  padding: 0 1.5em;
-}
-
-pre code {
-  padding: 0;
-  border: 0;
-  background-color: transparent;
+ol,
+ul {
+  padding-left: 1em;
 }
