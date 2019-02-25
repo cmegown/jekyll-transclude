@@ -21,3 +21,9 @@ Proposed syntax:
   </select>
 {% endtransclude %}
 ```
+
+## Links
+
+* [Original issue filed with Jekyll maintainers](https://github.com/jekyll/jekyll/issues/6789)
+* [Jekyll's documentation on tags](https://jekyllrb.com/docs/plugins/tags/)
+* Reference for Jekyll's [`highlight` tag](https://github.com/jekyll/jekyll/blob/587111ec9f3e5a2d6d2dc60ce8b0ec651ded27b7/lib/jekyll/tags/highlight.rb) and [`include` tag](https://github.com/jekyll/jekyll/blob/587111ec9f3e5a2d6d2dc60ce8b0ec651ded27b7/lib/jekyll/tags/include.rb)
